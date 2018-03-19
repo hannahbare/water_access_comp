@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <link rel="stylesheet" type="text/css" href="main.css">
+
+  <link rel="stylesheet" type="text/css" href="reset.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Titillium+Web" rel="stylesheet">
+
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <meta name="viewport" content="width=device-width", initial-scale="1">
+  <title>Water Access Information</title>
+</head>
+<body>
+  <nav class="sidebar">
+    <article class="sidebar__top">
+      <img alt="Image of water" src="imgs/drop.png" class="nav__img">
+      <h3 class="nav__name">Home  <i class="fa fa-chevron-down" aria-hidden="true"></i>
+      </h3>
+    </article>
+    <article class="nav__art">
+      <h3 class="nav__title">ABOUT US</h3>
+      <ul>
+        <li class="nav__li">
+          <i class="fa fa-home" aria-hidden="true"></i><span class="nav__li--title">The Issue</span>
+        </li>
+        <li class="nav__li">
+          <i class="fa fa-briefcase" aria-hidden="true"></i> <span class="nav__li--title">Our Work</span>
+        </li>
+        <li class="nav__li">
+          <i class="fas fa-file-alt" aria-hidden="true"></i> <span class="nav__li--title">Water Credit</span>
+        </li>
+        <li class="nav__li">
+          <i class="fa fa-tasks" aria-hidden="true"></i><span class="nav__li--title">Water Equity</span>
+        </li>
+        <li class="nav__li">
+          <i class="far fa-calendar-alt" aria-hidden="true"></i><span class="nav__li--title">Engage Globally</span>
+        </li>
+      </ul>
+    </article>
+    <article class="nav__art">
+      <h3 class="nav__title"><span class="nav__li--title">OUR IMPACT</span></h3>
+      <ul>
+        <li class="nav__li">
+          <i class="fa fa-user" aria-hidden="true"></i><span class="nav__li--title">The Water Crisis</span>
+        </li>
+        <li class="nav__li">
+          <i class="far fa-compass" aria-hidden="true"></i><span class="nav__li--title">Stories</span>
+        </li>
+        <li class="nav__li">
+          <i class="fas fa-code-branch" aria-hidden></i><span class="nav__li--title">Latin America</span>
+        </li>
+        <li class="nav__li">
+          <i class="fa fa-briefcase" aria-hidden="true"></i><span class="nav__li--title">Africa</span>
+        </li>
+
+        <li class="nav__li nav__li--asia">
+          <i class="fas fa-users" aria-hidden="true"></i><span class="nav__li--title">Asia</span>
+        </li>
+      </ul>
+    </article>
+    <article class="nav__art nav__categories">
+      <h3 class="nav__title">Categories</h3>
+      <label class="nav__checkboxes">
+        <input type="checkbox">
+        <span class="checkbox__title">
+        Admin</span>
+      </label>
+      <label class="nav__checkboxes">
+        <input type="checkbox">
+        <span class="checkbox__title">Design</span>
+      </label>
+      <label class="nav__checkboxes">
+        <input type="checkbox">
+        <span class="checkbox__title">Executive</span>
+      </label>
+      <label class="nav__checkboxes">
+        <input type="checkbox">
+        <span class="checkbox__title">Human Resources</span>
+      </label>
+    </article>
+  </nav>
+  <main>
+    <header>
+      <section class="search">
+        <p role="icon" class="icon" id="search__menu--icon"><i class="fas fa-bars"></i></p>
+        <form class="search__bar--form">
+          <p role="icon" class="icon" id="search__bar--icon"><i class="fas fa-search"></i></p>
+          <input type="text" id="search__bar--input" aria-label="Search bar. Insert text to search for something you'd like to find." placeholder="Search...">
+        </form>
+        <p class="icon" id="search__adduser--icon"><i class="fas fa-user-plus"></i></p>
+        <p class="icon" id="search__calendar--icon"><i class="fas fa-calendar-alt"></i></p>
+        <p class="icon" id="search__settings--icon"><i class="fas fa-ellipsis-h"></i></p>
+      </section>
+      <section class="title">
+        <div class="title__left">
+          <h1>OUR IMPACT</h1>
+          <div class="title__left--details">
+            <div class="title__location"><i class="fas fa-map-marker" aria-hidden="true"></i></div>
+            <p class="title__detail--city">ASIA</p>
+            <div class="title__dot"><i class="fas fa-circle" aria-hidden="true"></i></div>
+            <p class="title__detail--link">Preview this post</p>
+          </div>
+        </div>
+        <div class="title__right">
+          <button id="title__right--open"><i class="fas fa-circle green-dot" aria-hidden="true"></i> OPEN</button>
+          <button><i class="fas fa-bookmark" aria-label="Bookmark-icon"></i></button>
+          <button><i class="fas fa-pencil-alt" aria-label="Edit icon"></i></button>
+          <button><i class="fas fa-trash-alt" aria-label="Delete icon"></i></button>
+        </div>
+      </section>
+      <section>
+        <ul class="links">
+          <li class="links__li">BANGLADESH</li>
+          <li class="links__li links__hide--6">CAMBODIA</li>
+          <li class="links__li links__hide--5">INDIA</li>
+          <li class="links__li links__hide--4">INDONESIA</li>
+          <li class="links__li links__hide--3">PHILLIPINES</li>
+          <li class="links__li" id="links__showmore">more..</li>
+        </ul>
+      </section>
+    </header>    
+    <section class="graphs__section">
+      <article class="circle__graph--section">
+        <ul class="circle__graph">
+          <li class="circle circlegraph__one">
+            <p class="circle__graph--container">
+              <div class="circle__graph--num">80%</div>
+              <div class="circle__graph--text">rural areas</div>
+            </p>
+          </li>
+          <li class="circle circlegraph__two">
+            <p class="circle__graph--container">
+              <div class="circle__graph--num">4 Mill</div>
+              <div class="circle__graph--text">lack safe water</div>
+            </p>
+          </li>
+          <li class="circle circlegraph__three">
+            <p class="circle__graph--container">
+              <div class="circle__graph--num">2 Mill</div>
+              <div class="circle__graph--text">lack improved sanitation</div>
+            </p>
+          </li>
+        </ul>
+      <button class="graph__btn graph__btn--left">Cambodia's Water & Sanitation Crisis</button>
+      </article>
+      <article class="bar__graph--section">
+        <div>
+          <img src="imgs/bar-chart.png" alt="Bar graph for employment position." class="bar__graph">
+        </div>
+        <button class="graph__btn graph__btn--right">APPLICANTS/DAY</button>
+      </article>
+    </section>
+    <section class="details">
+      <table class="details__table">
+        <tr>
+          <td class="details__title row1">QUICK FACTS
+          </td>
+          <td class="details__title row2">
+            <button id="details__edit"><i class="fas fa-pencil-alt" aria-label="Edit icon"></i>  NOTES</button>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">WATER</td>
+          <td class="row2">Approximately 4 million people in Cambodia lack access to safe water.</td>
+        </tr>
+        <tr>
+          <td class="row1">SANITATION</td>
+          <td class="row2">2 million people lack access to improved sanitation.</td>
+        </tr>
+        <tr>
+          <td class="row1">GEOGRAPHICS</td>
+          <td class="row2">80% of Cambodians live in rural areas where water and sanitation access affects most.</td>
+        </tr>
+        <tr>
+          <td class="row1">ECONOMICS</td>
+          <td class="row2">The GDP per capita remains low compared to neighboring countries.</td>
+        </tr>
+        <tr>
+          <td class="row1">STATUS</td>
+          <td class="row2">Continued support.</td>
+        </tr>
+        <tr>
+          <td class="row1">OUR IMPACT</td>
+          <td class="row2">"Cambodia is an ideal environment for our WaterCredit solution. A well-developed microfinance sector in a country with high water and sanitation needs represents an excellent platform for expanding access to affordable financing for water supply and sanitation improvements. Water.org launched activities and laid the groundwork in Cambodia in 2014 with funding from the New Ventures Fund — a pool of flexible philanthropic funding that allows the organization to pursue key research and development efforts."</td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="details__hiring">PEOPLE REACHED</span>
+          </td>
+          <td class="row2" id="details__img--container">
+            <span class="tizzy-pic">200 K</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1 lastrow">LOANS DISBURSED</td>
+          <td class="row2 lastrow" id="details__money">47 K</td>
+        </tr>
+      </table>
+      <article class="social__section">
+        <div class="social__btns">
+          <button class="social__btns--three" id="btn__facebook">
+            <i class="fab fa-facebook-f" id="fb__icon"></i>Post to Facebook
+          </button>
+          <button class="social__btns--three" id="btn__twitter">
+            <i class="fab fa-twitter" id="twitter__icon"></i>Tweet this Post
+          </button>
+          <button class="social__btns--three" id="btn__linkedin">
+            <i class="fab fa-linkedin" id="linkedin__icon"></i>Post to Linkedin
+          </button>
+        </div>
+        <div>
+          <section class="social__input--section social__section--one">
+            <h5 class="social__title">
+              <i class="fas fa-globe"></i>Contact Us</h5>
+            <p class="social__para">Mel singulis constituto te, timeam alterum atomorum pro in. Veri justo ea quo.</p>
+            <form class="social__form">
+              <input type="text" class="social__input" aria-label="Text input for your email." placeholder="http://www.google.com">
+              <button class="social__btn--copy">Copy</button>
+            </form>
+          </section>
+          <section class="social__input--section social__section--two">
+            <h5 class="social__title">
+              <i class="fas fa-camera-retro"></i>
+            Join our Efforts</h5>
+            <p class="social__para">Mel singulis constituto te, timeam alterum atomorum pro in. Veri justo ea quo.</p>
+            <form class="social__form">
+              <input type="text" class="social__input" aria-label="Text input for your email." placeholder="<script type=text/javascript>">
+              <button class="social__btn--copy">Copy</button>
+            </form>
+          </section>
+          <section class="social__input--section social__section--three">
+            <h5 class="social__title">
+              <i class="fas fa-paper-plane"></i>We're Hiring! Upload your Resume</h5>
+            <p class="social__para">Mel singulis constituto te, timeam alterum atomorum pro in. Veri justo ea quo.</p>
+            <form class="social__form">
+              <input type="text" class="social__input" id="social__input--third" aria-label="Text input for your email." placeholder="tomtizzy@gmail.com">
+            </form>
+          </section>
+        </div>
+      </article>
+    </section>
+    <footer>
+      <p class="footer__info">Information credit by www.water.org & www.unwater.org</p>
+    </footer>
+  </main>
+</body>
+</html>
