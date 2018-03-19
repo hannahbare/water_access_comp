@@ -60,8 +60,17 @@ body {
   color: #9d9bac;
 }
 
+.nav__li--asia {
+  width: 12.4rem;
+  padding-left: 1.2rem;
+  border-left: 3px solid #55b9fb;
+  background-color: #303949;
+  color: #fff;
+  cursor: pointer;
+}
+
 .nav__li:hover {
-  width: 11.2rem;
+  width: 12.4rem;
   padding-left: 1.2rem;
   border-left: 3px solid #55b9fb;
   background-color: #303949;
@@ -127,6 +136,7 @@ header {
 
 #search__menu--icon {
   padding-right: 2.75rem;
+  padding-left: 1.5rem;
   border-right: 2px solid #D9DDE3;
 }
 #search__adduser--icon {
@@ -235,6 +245,12 @@ header {
   cursor: pointer;
   font-size: 1rem;
   font-weight: bold;
+}
+
+.links__hide--6 {
+  padding-bottom: 2.9rem;
+  border-bottom: 3px solid #55b9fb;
+  color: #303949;
 }
 
 #links__downarrow,
@@ -523,6 +539,18 @@ form {
   color: #fff;
   cursor: pointer;
   font-size: 0.8rem;
+}
+
+footer {
+  background-color: #354051;
+  height: 7rem;
+  text-align: center;
+}
+
+.footer__info {
+  padding-top: 3rem;
+  color: red;
+
 }
 
 @media (max-width: 1200px) {
