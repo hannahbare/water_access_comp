@@ -24,7 +24,7 @@ body {
 .nav__img {
   height: 6rem;
   border-radius: 50%;
-  margin: 2rem 3.25rem 1rem;
+  margin: 2rem 3.25rem 1rem 3rem;
 }
 
 .nav__name {
