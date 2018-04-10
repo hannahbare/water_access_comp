@@ -425,7 +425,6 @@ header {
 
 .tizzy-pic {
   vertical-align: 17px;
-  padding-left: 1rem;
 }
 
 #details__money {
@@ -542,15 +541,13 @@ form {
 }
 
 footer {
-  background-color: #354051;
-  height: 7rem;
-  text-align: center;
+  height: 2rem;
+  text-align: right;
 }
 
 .footer__info {
-  padding-top: 3rem;
-  color: red;
-
+  padding: 0.5rem 2rem 0;
+  color: #6c7c95;
 }
 
 @media (max-width: 1200px) {
